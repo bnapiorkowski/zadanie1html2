@@ -8,18 +8,19 @@
 </head>
 <body>
     <form action="">
-        <label for="name">Imię</label><input type="text" id="fname" name="firstname" required><br>
-        <label for="username">Nazwisko</label><input type="text" id="uname" name="username" required><br>
-        <label for="email"></label>email</label><input type="email" id="mail" name="email" required><br>
+        <label for="name">Imię</label><input type="text" id="name" name="firstname" required><br>
+        <label for="username">Nazwisko</label><input type="text" id="username" name="username" required><br>
+        <label for="email">email</label><input type="email" id="email" name="email" required><br>
         <label for="phone">Telefon</label><input type="tel" id="phone" name="phone"><br>
         <select name="city" id="city" required>
             <option value="Kraków">Kraków</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdańsk">Gdańsk</option>
         </select><br>
-        <p>Płeć</p><label for="woman">Kobieta</label><input type="radio" name ="choise" id="woman" required>
+        <p>Płeć</p><label for="woman">Kobieta</label><input type="radio" name="choise" id="woman" required>
         <label for="man">Mężczyzna</label><input type="radio" name ="choise" id="man" required> <br>
-        <input type="checkbox" required>Wyrażam zgodę na przetwarzanie danych osobowych <br>
+        <label><input type="checkbox" required>Wyrażam zgodę na przetwarzanie danych osobowych</label>
+       <br>
         <label for="text">Wiadomość</label><textarea name="message" id="text" cols="30" rows="10"></textarea>
         <input type="submit">
         
